@@ -1,0 +1,6 @@
+{
+  "name": "Café Éclipse",
+  "description": "An immersive luxury Gothic coffee experience, featuring 3D ambient design, interactive planetary menus, custom dark elixir formulations, and cosmic taste alchemy matches.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
