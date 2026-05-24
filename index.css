@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-sans: "Outfit", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom Alchemist Gold Palette instead of Amber */
+  --color-amber-50: #faf7f2;
+  --color-amber-100: #f4efdf;
+  --color-amber-200: #e8dbbe;
+  --color-amber-300: #e1cb9e;
+  --color-amber-400: #d6b572;
+  --color-amber-500: #c5a059; /* Custom Signature Gold */
+  --color-amber-600: #aa853f;
+  --color-amber-700: #8c672b;
+  --color-amber-850: #5c4118;
+  --color-amber-900: #422d0f;
+  --color-amber-950: #1a1205;
+
+  /* Custom Warm Champagne & Pitch Obsidian Palette instead of Zombie Zinc */
+  --color-zinc-50: #fbf9f4;
+  --color-zinc-100: #f1ebd9;
+  --color-zinc-200: #e7dfcc;
+  --color-zinc-350: #cfc6b5;
+  --color-zinc-300: #e0d7c6; /* Warm Champagne text */
+  --color-zinc-400: #ccc3b0;
+  --color-zinc-500: #8a8173;
+  --color-zinc-600: #5d564b;
+  --color-zinc-700: #3d372e;
+  --color-zinc-800: #1f1a14;
+  --color-zinc-900: #121210;
+  --color-zinc-950: #050505; /* Pitch Obsidian background */
+}
+
+@keyframes orbit {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Custom Scrollbar Styles conforming to the Vault layout */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f1a14;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3d372e;
+}
+
+body {
+  background-color: #050505;
+  color: #e0d7c6;
+  overflow-x: hidden;
+}
+
